@@ -16,9 +16,9 @@ function Home() {
 
   // const navigate = useNavigate();
   return data.map((city) => (
-    <div className="main" key={city.name}>
+    <div className="main" key={city.id}>
       <h1 className="name">{city.name}</h1>
-      <h2 className="country">{city.sys.countery}</h2>
+      <h2 className="country">{city.sys.country}</h2>
     </div>
   ));
 }
