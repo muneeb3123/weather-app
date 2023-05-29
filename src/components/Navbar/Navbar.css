@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 2%;
+    background-color: rgb(192, 218, 218);
+}
+
+.nav-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 20px;
+    border-radius: 30px;
+}
+
+.search-container {
+    position: relative;
+  }
+
+  .search-input {
+    border-radius: 8px;
+    padding: 5px 15px;
+    width: 5rem;
+    height: 1rem;
+    margin-right: 8px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 30%;
+    right: 35px;
+    transform: translateY(-15%);
+  }
+
+  .name {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-family: 'Lobster Two', cursive;
+  }
+
+  
+@media (min-width: 768px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .settingIcon {
+        font-size: 30px;
+    } 
+    
+    .microphone {
+        font-size: 20px;
+    }
+    
+    .search-input {
+        width: 12rem;
+        height: 1.8rem;
+    }
+
+    .search-icon {
+        font-size: 20px;
+    }
+}
