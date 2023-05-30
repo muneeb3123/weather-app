@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const cities = ['gujrat', 'islamabad'];
+const cities = ['gujrat', 'islamabad', 'london', 'istanbul', 'mumbai', 'new york', 'muscat', 'dubai', 'yemen'];
 const key = 'fe35aab220ffb69b8fb5eef45d5615d1';
 const url = 'https://api.openweathermap.org/data/2.5/weather';
 

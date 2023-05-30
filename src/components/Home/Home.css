@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Crete Round", serif;
+}
+
+.weather-logo {
+  height: 4rem;
+}
+
+.img-tem {
+  display: flex;
+  align-items: center;
+}
+
+.temperature {
+  font-size: 1rem;
+}
+
+.home-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #a990d4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.city-country {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.small {
+  font-size: 0.6em;
+}
+
+.name {
+  font-size: 1rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #e8e2f3;
+  padding: 2rem;
+}
+
+@media (max-width: 499px) {
+  .grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 0 5%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 500px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .temperature {
+    font-size: 1.5rem;
+  }
+
+  .weather-logo {
+    height: 6rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .weather-logo {
+    height: 8rem;
+  }
+
+  .temperature {
+    font-size: 2rem;
+  }
+
+  .home-main {
+    padding: 10px 40px;
+    border-radius: 20px;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      } 
+}

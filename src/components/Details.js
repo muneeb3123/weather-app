@@ -1,8 +1,10 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 function Details() {
   const navigate = useNavigate();
+  const { data } = useSelector((state) => state.Details);
 
   return (
     <div
@@ -15,7 +17,7 @@ function Details() {
         }
       }}
     >
-      hy
+      {data.name}
     </div>
   );
 }
