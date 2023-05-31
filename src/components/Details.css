@@ -1,0 +1,45 @@
+.details-main {
+    height: 100vh;
+    background-color: rgba(138, 43, 226, 0.2);
+}
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+.upper {
+    background-color: rgba(138, 43, 226, 0.2);
+    backdrop-filter: transparent;
+    padding: 40px 10%;
+}
+
+.img-temp {
+    display: flex;
+    gap: 5%;
+}
+
+  .details-image {
+    height: 8rem;
+  }
+
+  .country-city {
+    font-size: 2rem;
+    color: #e8e2f3;
+  }
+
+  .temperature-details {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #e8e2f3;
+  }
+
+  .condition-details {
+    font-size: 1.5rem;
+    color: #e8e2f3;
+  }
+
+  .temp-condition {
+    display: flex;
+    flex-direction: column;
+  }
