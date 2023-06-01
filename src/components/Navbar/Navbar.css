@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 2%;
+  color: #e8e2f3;
+  background-color: #523e82;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  border-radius: 8px;
+  padding: 5px 15px;
+  width: 5rem;
+  height: 1rem;
+  margin-right: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 30%;
+  right: 35px;
+  transform: translateY(-15%);
+  color: #000;
+}
+
+.navbarName {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-family: "Lobster Two", cursive;
+}
+
+@media (min-width: 768px) {
+  .navbarName {
+    font-size: 3rem;
+  }
+
+  .settingIcon {
+    font-size: 30px;
+  }
+
+  .microphone {
+    font-size: 20px;
+  }
+
+  .search-input {
+    width: 12rem;
+    height: 1.6rem;
+  }
+
+  .search-icon {
+    font-size: 20px;
+  }
+}
