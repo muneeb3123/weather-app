@@ -3,7 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 15px 2%;
-  color: #E8E2F3;
+  color: #e8e2f3;
   background-color: #523e82;
 }
 
@@ -54,7 +54,7 @@ nav {
 
   .search-input {
     width: 12rem;
-    height: 1.8rem;
+    height: 1.6rem;
   }
 
   .search-icon {
