@@ -12,6 +12,7 @@ function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
   const clickHandle = (value) => {
+    navigate('/');
     dispatch(fetchWeatherData(value));
   };
 
@@ -35,32 +36,24 @@ function Navbar() {
       <div className="nav-name">
         <h3 className="navbarName">Weather360</h3>
       </div>
-      {isHomePage ? (
-        <div className="search-container">
-          <input
-            type="text"
-            placeholder="find cities weather"
-            className="search-input"
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                clickHandle(value);
-              }
-            }}
-            value={value}
-            onChange={(e) => setvalue(e.target.value)}
-          />
-
-          <span className="search-icon">
-            <IoSearch onClick={() => clickHandle(value)} />
-          </span>
-          <FaMicrophone className="microphone" />
-        </div>
-      ) : (
-        <IoChevronBackCircleSharp
-          className="settingIcon"
-          onClick={handleIconClick}
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="search"
+          className="search-input"
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              clickHandle(value);
+            }
+          }}
+          value={value}
+          onChange={(e) => setvalue(e.target.value)}
         />
-      )}
+        <span className="search-icon">
+          <IoSearch onClick={() => clickHandle(value)} />
+        </span>
+        <FaMicrophone className="microphone" />
+      </div>
     </nav>
   );
 }
