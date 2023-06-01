@@ -33,20 +33,20 @@ Welcome to Weather360, a robust web application that offers precise weather info
 
 ### Tech Stack <a name="tech-stack"></a>
 - Javascript
-- React
-- Linters
+- React/redux
+- API Integration: Fetching data from OpenWeatherMap API
 - CSS
 <!-- Features -->
 
 ## 🚀 Live Demo <a name="protfolio-project"></a>
  
-https://tourmaline-nougat-967856.netlify.app
+https://shimmering-heliotrope-f0efd9.netlify.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  📼 Project Walkthrough <a name="project-walk"></a>
 
-https://www.loom.com/share/756c3a2ea73843c5ac9d11d32e89a8dd
+https://www.loom.com/share/7e888fc1129c4cb8a6412e967a1990f8
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
