@@ -40,7 +40,7 @@ Welcome to Weather360, a robust web application that offers precise weather info
 
 ## 🚀 Live Demo <a name="protfolio-project"></a>
  
-N/A
+https://tourmaline-nougat-967856.netlify.app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
