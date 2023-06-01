@@ -5,7 +5,7 @@ describe('DetailSlice reducer', () => {
     const initialState = { data: [] };
     const city = { weatherImage: 'image.jpg', city: { name: 'London' } };
     const nextState = DetailSlicereducer(initialState, selectCity(city));
-    
+
     expect(nextState).toEqual({ data: { weatherImage: 'image.jpg', city: { name: 'London' } } });
   });
 });

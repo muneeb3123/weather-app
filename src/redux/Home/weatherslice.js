@@ -42,12 +42,9 @@ const weatherSlice = createSlice({
         data: action.payload,
         error: null,
       }))
-      .addCase(fetchWeatherData.rejected, (state, action) => {
-        console.log(action.error.message);
-        return {
-          ...state, data: [], isLoading: false, error: action.error.message,
-        };
-      });
+      .addCase(fetchWeatherData.rejected, (state, action) => ({
+        ...state, data: [], isLoading: false, error: action.error.message,
+      }));
   },
 });
 

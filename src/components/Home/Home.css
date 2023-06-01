@@ -62,6 +62,7 @@
     margin-bottom: 5%;
   }
 }
+
 @media (min-width: 500px) {
   .grid {
     display: grid;
