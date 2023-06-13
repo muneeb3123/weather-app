@@ -99,6 +99,8 @@ Make sure to run the tests regularly to catch any potential issues and maintain 
 - Twitter: [@Hafizabd4](https://twitter.com/Hafizabd4)
 - LinkedIn: (https://www.linkedin.com/in/muneeb-rehman-01b6bb193/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -128,9 +130,9 @@ Give a ⭐️ if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 
 
 <!-- LICENSE -->
